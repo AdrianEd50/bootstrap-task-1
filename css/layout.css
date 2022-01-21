@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../images/texture.png");
+  background-color: var(--background-colour);
+  color: white;
+}
+
+footer {
+  background-color: var(--nav-colour);
+  color: white;
+  justify-content: space-evenly;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+h1 {
+  color: var(--primary-colour);
+}
+
+.list-group-item {
+  background-color: #121010;
+}

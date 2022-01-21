@@ -1,0 +1,16 @@
+.product {
+  background-color: var(--background-dark);
+  border-radius: 10px;
+  margin-bottom: 1.7em;
+  margin: 20px;
+}
+
+.product .card-img-top {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product .btn {
+  background-color: var(--primary-colour);
+  border: none;
+  width: 100%;
+}

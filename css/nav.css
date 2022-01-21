@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.navbar {
+  background-color: var(--nav-colour) !important;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: var(--primary-colour);
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
